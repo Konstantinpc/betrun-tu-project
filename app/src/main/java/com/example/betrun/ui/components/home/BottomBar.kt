@@ -52,7 +52,7 @@ fun BottomBar(
             modifier = modifier
                 .fillMaxWidth()
                 .windowInsetsPadding(WindowInsets.systemBars.only(WindowInsetsSides.Horizontal + WindowInsetsSides.Bottom))
-                .padding(top = 10.dp),
+                .padding(vertical = 10.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {

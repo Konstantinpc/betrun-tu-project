@@ -22,7 +22,7 @@ object RunUtils {
     const val ZOOM = 15f
 
     fun roundOffDecimal(number: Float): Float {
-        val df = DecimalFormat("#.##")
+        val df = DecimalFormat("#,##")
         df.roundingMode = RoundingMode.CEILING
         return df.format(number).toFloat()
     }
